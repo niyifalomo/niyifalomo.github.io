@@ -7,15 +7,14 @@ import SEO from '../components/seo'
 import './index.css'
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi!</h1>
-    <p>Welcome to my website.</p>
-    <p>I will update this someday.</p>
+    <SEO title="Home" keywords={[`olaniyi`,'portfolio', `application`, `react`]} />
+    <h3>Hi, welcome to my website! </h3>
+    <p>I am Olaniyi, a Sofware Developer with a focus on back end</p>
 
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-
+    <p>I will update this website someday.</p>
     <div>
       <h5>Connect with me</h5>
       <div id="social_links">
@@ -26,10 +25,10 @@ const IndexPage = () => (
           Twitter
         </a>
         <a target="_blank" href="https://www.linkedin.com/in/olaniyifalomo/">
-          Linkedin
+          LinkedIn
         </a>
         <a target="_blank" href="https://github.com/niyifalomo">
-          Github
+          GitHub
         </a>
       </div>
     </div>
