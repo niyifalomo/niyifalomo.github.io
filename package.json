@@ -23,12 +23,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && gh-pages -d public -b master -r https://github.com/niyifalomo/niyifalomo.github.io",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b master -r https://github.com/niyifalomo/niyifalomo.github.io"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
