@@ -7,9 +7,9 @@ import SEO from '../components/seo'
 import './index.css'
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`olaniyi`,'portfolio', `application`, `react`]} />
-    <h3>Hi, welcome to my website! </h3>
-    <p>I am Olaniyi, a Sofware Developer with a focus on back end</p>
+    <SEO title="Home" keywords={[`olaniyi`,`developer`,`software`,`engineer`, `application`, `react`]} />
+    <h3>Hi, </h3>
+    <p>I am Olaniyi, a Software Developer with a focus on back end.</p>
 
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
